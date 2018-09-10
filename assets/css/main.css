@@ -3228,11 +3228,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #1a64a5;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #000000;
 		}
 
 		.wrapper.style2 {
@@ -3244,7 +3244,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #000000;
 		}
 
 		.wrapper.style3-alt {
@@ -3902,3 +3902,12 @@ input, select, textarea {
 			}
 
 		}
+
+#two > div > p,
+#three > div > div > section:nth-child(1) > p {
+	color: #ffffff;
+}
+
+#three > div > div > section:nth-child(2) > ul {
+	color: #ffffff;
+}
