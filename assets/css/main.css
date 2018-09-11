@@ -3861,13 +3861,6 @@ input, select, textarea {
 	#intro {
 		background-attachment: fixed;
 		background-color:#030405;
-		/*background-image: url("images/nyc-bridge.jpg");*/
-		/*background-image: url("images/nyc-color.jpg");*/
-		/*background-image: url("images/nyc-empire-state.jpg");*/
-		/*background-image: url("images/black-polygon.png");*/
-		/*background-image: url("images/molecule-structure.jpg");*/
-		/*background-image: url("images/single-molecule.jpg");*/
-
 		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
@@ -3946,8 +3939,4 @@ input, select, textarea {
 #two > div > p {
 	font-size: 1.25em;
 }
-
-/*#two > div > center {
-	text-align: left;
-}*/
 
