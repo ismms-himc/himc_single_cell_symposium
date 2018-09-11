@@ -3928,3 +3928,26 @@ input, select, textarea {
 #main > div > table > tbody {
 	color: #ffffff;
 }
+
+
+#two > div > center > img {
+	width: 20%;
+}
+
+
+#one > section > div > div > p:nth-child(2) {
+	font-size: 1.3em;
+}
+
+#one > section > div > div > ul:nth-child(3) {
+	font-size: 1.25em;
+}
+
+#two > div > p {
+	font-size: 1.25em;
+}
+
+/*#two > div > center {
+	text-align: left;
+}*/
+
