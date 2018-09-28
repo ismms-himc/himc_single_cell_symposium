@@ -3896,12 +3896,12 @@ input, select, textarea {
 
 		}
 
-#two > div > p,
-#three > div > div > section:nth-child(1) > p {
+#three > div > p,
+#four > div > div > section:nth-child(1) > p {
 	color: #ffffff;
 }
 
-#three > div > div > section:nth-child(2) > ul {
+#four > div > div > section:nth-child(2) > ul {
 	color: #ffffff;
 }
 
@@ -3922,8 +3922,7 @@ input, select, textarea {
 	color: #ffffff;
 }
 
-
-#two > div > center > img {
+#three > div > center > img {
 	width: 20%;
 }
 
@@ -3936,7 +3935,12 @@ input, select, textarea {
 	font-size: 1.25em;
 }
 
-#two > div > p {
+#three > div > p {
 	font-size: 1.25em;
 }
 
+
+#two > div > p {
+	font-size: 1.3em;
+	color: #ffffff;
+}
