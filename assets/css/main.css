@@ -3949,3 +3949,7 @@ input, select, textarea {
 #four > div > div > section:nth-child(2) > ul > li  > a {
 	font-size: 1.25em;
 }
+
+#sinai-logo {
+	max-height: 50px;
+}
