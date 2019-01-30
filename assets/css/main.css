@@ -3953,3 +3953,8 @@ input, select, textarea {
 #sinai-logo {
 	max-height: 50px;
 }
+
+.white-p {
+    font-size: 1.25em;
+    color: #ffffff;
+}
