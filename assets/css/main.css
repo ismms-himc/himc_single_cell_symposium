@@ -3962,3 +3962,32 @@ input, select, textarea {
 .contact-list {
     color: #ffffff;
 }
+
+
+/* Veritas Legend Screen */
+
+select {
+  width: 150px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: white;
+}
+
+
+/* CAUTION: IE hackery ahead */
+
+
+select::-ms-expand { 
+    display: none; /* remove default arrow in IE 10 and 11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background:none\9;
+        padding: 5px\9;
+    }
