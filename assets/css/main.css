@@ -3991,18 +3991,20 @@ select::-ms-expand {
         padding: 5px\9;
     }
 }
+
 .veritas-data {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 #marker-tsne-plot, #marker-bar-plot {
 	max-height: 370px; 
-	margin: 15px 0px 0px 15px;
+	margin: 10px 0px 0px 10px;
 }
 
  #overlay-tsne-plot {
- 	margin-top: 15px;
+ 	margin: 10px 0px 0px 10px;
  	height: 370px;
  }
 
