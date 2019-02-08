@@ -32,12 +32,12 @@
 						<div class="inner">
 							<h1 class="major">Veritas Legend Screen</h1>
 							<h2>Select marker:</h2>
-							<select>
-								<option>CD1a</option>
-								<option>CD4</option>
-								<option>CD5</option>
-								<option>CD6</option>
-								<option selected="selected">CD7</option>
+							<select id="marker-list">
+								<option value='{"tsne":"../images/veritas_legendscreen/visne_plots/CD1a_visne.png", "bar":"../images/veritas_legendscreen/bar_plots/CD1a_median_intensity.png"}'>CD1a</option>
+								<option value='{"tsne":"../images/veritas_legendscreen/visne_plots/CD4_visne.png", "bar":"../images/veritas_legendscreen/bar_plots/CD4_median_intensity.png"}'>CD4</option>
+								<option value='{"tsne":"../images/veritas_legendscreen/visne_plots/CD5_visne.png", "bar":"../images/veritas_legendscreen/bar_plots/CD5_median_intensity.png"}'>CD5</option>
+								<option value='{"tsne":"../images/veritas_legendscreen/visne_plots/CD6_visne.png", "bar":"../images/veritas_legendscreen/bar_plots/CD6_median_intensity.png"}'>CD6</option>
+								<option value='{"tsne":"../images/veritas_legendscreen/visne_plots/CD7_visne.png", "bar":"../images/veritas_legendscreen/bar_plots/CD7_median_intensity.png"}' selected="selected">CD7</option>
 							</select>
 							<div class="veritas-data">
 								<section class="tsne-overlay">
@@ -72,6 +72,8 @@
 			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
 			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/veritas_barplot.js"></script>
+			<script src="../assets/js/veritas_tsne.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/main.js"></script>
 
