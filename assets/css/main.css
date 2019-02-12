@@ -3999,12 +3999,12 @@ select::-ms-expand {
 }
 
 #marker-tsne-plot, #marker-bar-plot {
-	max-height: 370px; 
+	max-height: 400px; 
 	margin: 10px 0px 0px 10px;
 }
 
  #overlay-tsne-plot {
  	margin: 10px 0px 0px 10px;
- 	height: 370px;
+ 	height: 400px;
  }
 
